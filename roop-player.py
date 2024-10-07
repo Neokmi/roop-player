@@ -4,9 +4,8 @@ import time
 from typing import Any, List, Optional, Tuple
 from threading import Thread
 import cv2
-import insightface
-from PIL.Image import Image
 from cv2 import VideoCapture, Mat
+import insightface
 from insightface.app.common import Face
 from gfpgan.utils import GFPGANer
 import customtkinter as ctk
@@ -17,11 +16,6 @@ import mss
 import numpy as np
 import pygetwindow as gw
 import mimetypes
-import mss
-import pygetwindow as gw
-from PIL import Image
-
-
 
 Frame = np.ndarray[Any, Any]
 
