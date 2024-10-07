@@ -1,3 +1,3 @@
-call "E:\github\venv\Scripts\activate.bat"
+call "venv\Scripts\activate.bat"
 python.exe roop-player.py
 pause
